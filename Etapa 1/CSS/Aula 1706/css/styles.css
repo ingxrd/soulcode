@@ -1,0 +1,25 @@
+/*seletor de elemento */
+/*todos os elementos recebem o mesmo estilo*/
+
+p {
+    color:rgb(42, 42, 97);
+}
+
+/*Seletor de classe = elementos com atributo class recebem o estilo*/
+.destaque{
+    background-color: rgb(255, 255, 171);
+    color: rgb(226, 123, 123);
+}
+
+.texto-centro{
+    text-align: center;
+}
+
+/* seletor de ID = aplicado  a um unico elemento na página */
+#paragrafo{
+    background-color: crimson;
+    color: white;
+    text-align: right;
+}
+
+/*Especificidade = o que é mais importante - elemento, classe e id */

@@ -1,0 +1,54 @@
+.titulo{
+    font-family: helvetica, sans-serif;
+    color: #995dbb;
+    text-align: center;
+}
+
+.paragrafo{
+    padding: 10px;
+    border: 20px;
+    margin: auto;
+    font-size: helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.button {
+    background-color: #86aad4; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 3px;
+    cursor: pointer;
+    font-family: "Henny Penny";
+  }
+
+  .button1 {
+    background-color: #bb9dcc; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 3px;
+    cursor: pointer;
+    font-family: "Henny Penny";
+  }
+
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(236,174,203,1) 4%, rgba(202,179,215,1) 33%, rgba(148,187,233,1) 78%); 
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-shadow: 0 0 4px #000;
+}
+

@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box; /*evita problemas de redimensionamento com o padding*/
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html{
+    /*propriedades aplicadas aos filhos do html*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color:  #0b0f19;
+    /*normalmente travamos uma altura*/
+    display: flex;
+    height: 64px;
+    justify-content: space-between;
+    padding: 12px; /*pra nao ficar colado nas margens do navbar.*/
+}
+
+/*estilizando a imagem dentro do navbar:*/
+.navbar img{
+    height: 100%; /*vai se adaptar ao tamanho da navbar, ou seja, 100% do navbar.*/
+}
+
+.nav-links{
+    display: flex;
+    gap: 12px;
+    align-items: center; /*alinhando os itens*/
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links a:hover{
+    color: #d9b800;
+}
+
+/*Media query - serve para  adaptar o layout para diferentes tamanhos de tela, 
+sitaxe:
+Media Query = regra especial 
+@media condicao {
+//estilos a serem aplicados quando a condição for verdadeira
+}*/
+
+@media (max-width: 480px){ /*chamamos de breaking-point*/
+    body {
+        background-color: red;
+    }
+}

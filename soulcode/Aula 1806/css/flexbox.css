@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.item-1{
+    background-color:orange;
+}
+
+
+.item-2{
+    background-color:brown;
+}
+
+
+.item-3{
+    background-color: gold;
+    align-self: flex-end;/*define o alinhamento individual no eixo cross. pode ser: flex-start, flex-end, center, stretch*/
+}
+
+
+.item-4{
+    background-color:hotpink;
+}
+
+.item-1,.item-2,.item-3,.item-4{
+    width: 200px;
+    padding: 8px;
+
+}
+
+.container{
+    background-color: darkcyan;
+    padding: 8px;
+    display: flex; /*para acionar o flexbox, eu uso display: flex; se eu boto display:flex, eles foram uma row (linha)*/
+    flex-direction:row; /*define qual a direção do flexbox. ou seja: é row ou column?*/
+    flex-wrap: wrap; /*define se há quebra de linha nos elementos ao faltar espaço na tela. wrap = escolho qnts elementos vao quebrar*/
+    justify-content:  center;/*ajusta os elementos no eixo main, ou seja, horizontalmente (em uma row)
+    principais valores do justify: start, end, center, space-between, space-around, space-evenly = between - entre os objetos /  around - ao redor dos objetos / evenly - uniformemente entre os elementos*/
+    align-items: center;/*o align-itens precisa de altura definida. usamos para ajustar os elementos no eixo cross nós temos: stretch, flex-start, flex-end, center. por padrão: stretch*/
+    height: 100vh;
+    /*align-content: center;*/ /*align-content ajusta os elementos quando usamos wrap, ou seja, qnd criamos as linhas no flexbox */
+     /*defino o espaço entre os itens*/
+    gap: 16px;
+    }
+
+

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html{
+    font-family: "Inter", sans-serif;
+}
+
+.container-pai{
+    background-color: #649c9c; 
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center; /*align-items alinha os itens dentro de um contêiner flexível verticalmente (no eixo transversal). Nesse caso, os itens são: .logo e .nav*/
+    justify-content: space-between; /*justify-content é aplicado ao .container-pai para alinhar e distribuir os itens ao longo do eixo principal (horizontalmente). Nesse caso, o uso do space-between porque ele alinha separadamente os itens, um no começo, outro no final. */
+    padding: 20px;
+
+}
+
+.nav{
+    background-color: #e863a9;
+    font-weight: bold;
+    padding: 16px; /*espaço entre os itens e ao redor*/
+    display: flex;
+    flex-wrap: wrap; /*direção de nav*/
+    gap: 10px;/*conteudo dentro de nav*/
+    height: 10vh;
+    align-items: center; /*centraliza os items dentro de .nav*/
+    
+}
+
+.logo{
+    background-color: #e2c521;
+    padding: 16px;
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+}
+
+.link-1, .link-2,.link-3{
+    text-decoration: none;
+    background-color: #4e0983;
+    color: white;
+    width: 16px;
+    padding: 8px;
+}

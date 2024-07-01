@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(251, 247, 255);
+    font-family: "Montserrat", sans-serif;
+    color: rgb(39, 39, 39);
+}
+
+h1,h2,h3{
+    color: rgb(87, 0, 128);
+}
+
+a {
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+img{
+    width: 350px;
+    border-radius: 16px;
+}
+

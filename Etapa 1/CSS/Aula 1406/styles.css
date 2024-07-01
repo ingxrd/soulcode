@@ -1,0 +1,126 @@
+h1{
+    font-family: "Domine", serif;
+    color: #8c3839;
+    text-align: center;
+
+}
+
+a{
+    color: #6e2628;
+    padding: 8px;
+    text-decoration: none;
+}
+
+nav{
+    text-align: center;
+}
+
+img{
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    display: block;
+}
+
+h2{
+    font-family: "Domine", serif;
+    color: #6e2628;
+    text-align: center;
+}
+
+.titulo-comeco{
+    font-family: "Domine, serif";
+    color:#6e2628;
+    text-align: center;
+}
+
+
+.paragrafo-comeco{
+    font-family: "Domine, serif";
+    text-align: center;
+    color: black;
+    margin: 0, 30px 0 0;
+}
+
+.titulo-clientes{
+    font-family: "Domine, serif";
+    color:#6e2628;
+    text-align: center;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.comentarios-clientes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.titulo-clientes {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.comentario {
+    flex: 1;
+    min-width: 250px; 
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.comentario h4 {
+    margin: 0;
+}
+
+.comentario p {
+    margin: 5px 0 0 0;
+}
+
+.projeto{
+    font-family: "Domine", serif;
+    color: #6e2628;
+    text-align: center;
+
+}
+
+.links-footer{
+    text-align: left;
+    color: #6e2628;
+    padding: 8px;
+    text-decoration: none;
+
+}
+
+.subtitulo-cardapio{
+    text-align: center;
+}
+
+.tabela-horario {
+    margin: auto; 
+    width: 50%; 
+    border-collapse: collapse; 
+    font-family: "Domine", serif;
+    color: #6e2628;
+    text-align: center;
+}
+
+.tabela-horario th,
+.tabela-horario td {
+    padding: 10px; /* Espaçamento interno das células */
+    border: 1px solid #dddddd; /* Borda das células */
+}
+
+.tabela-horario th {
+    background-color: #f2f2f2; /* Cor de fundo do cabeçalho */
+}
+
+.titulo-tabela {
+    font-family: "Domine", serif;
+    text-align: center;
+}

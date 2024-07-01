@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="pt-br"/>
+    </head>
+    <body>
+        <!--Tabelas
+        <tr> -> linha da tabela (table row)
+        <td> -> célula da tabela (table data)
+        <th> -> cabeçalho
+        <thead> -> cabeçalho da tabela
+        <tbody> -> corpo da tabela
+        <tfoot> -> rodapé da tabela        -->
+        
+    <table border="1" style="border-collapse: collapse;"> <!-- Tira as bordas duplas da tabela-->
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Endereço</th>
+            <th>Telefone</th>
+        </tr>
+        <tr>
+            <td>Ingrid</td>
+            <td>26</td>
+            <td>São Paulo/SP</td>
+            <td>91234-5678</td>
+        </tr>
+        <tr>
+            <td>William</td>
+            <td>31</td>
+            <td>São Paulo/SP</td>
+            <td>1234-5678</td>
+        </tr>
+        <tr>
+            <td>Tito</td>
+            <td>04</td>
+            <td>São Paulo/SP</td>
+            <td>0123-4567</td>
+        </tr>
+    </table>
+    <hr>
+    
+    <table border ="1" style="border-collapse: collapse;">
+        <thead><!--cabeçalho de forma mais semântica-->
+            <tr>
+                <tr><th colspan="4">Lista de funcionários</th></tr>
+                <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>E-mail</th>
+                <th>Pagamento realizado?</th>
+            </tr> 
+        </thead>
+
+        <tbody><!--Corpo da tabela-->
+            <tr>
+                <td>0123</td>
+                <td>Ingrid</td>
+                <td>email@email.com</td>
+                <td rowspan="3">Sim</td>
+            </tr>
+            <tr>
+                <td>2222</td>
+                <td>Titinhas</td>
+                <td>tito@auau.com</td>
+            </tr>
+           
+            <tr>
+                <td>2467</td>
+                <td>Titas</td>
+                <td>titas@auau.com</td>
+            </tr>
+            
+            <tr>
+                <td>0977</td>
+                <td>Ninhos</td>
+                <td>ninhos@auau.com</td>
+                <td rowspan="2">Não</td>
+            </tr>
+            
+            <tr>
+                <td>7890</td>
+                <td>Pepitas</td>
+                <td>pepitas@auau.com</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+            <td colspan="4">Obs: Os funcionáros recebem no último dia útil.</td> <!--"4" expande para 4 colunas, mudar o quanto for preciso-->
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <table border="1" style="border-collapse: collapse;">
+        <tr>
+            <td>Nome</td>
+            <td>Disciplina</td>
+            <td>Nota</td>
+            <th>Média</th>
+        </tr>
+        <tr>
+            <td rowspan="3">Ingrid</td>
+            <td>Português</td>
+            <td>7.0</td>
+            <td rowspan="3">7.33</td>
+        </tr>
+        <tr>
+            <td>Matemática</td>
+            <td>8.0</td>
+        </tr>
+        <tr>
+            <td>Computação</td>
+            <td>7.5</td>
+        </tr>
+    </table>
+    <hr>
+    <table border="1" style="border-collapse: collapse;">
+        <tr>
+        <th>Zonas</th>
+        <th>Clube</th>
+        <th>Pontuação</th>
+        <th>Gols</th>
+        <th>Vitórias</th>
+        </tr>
+        <tr>
+            <td rowspan="4">Libertadores</td>
+            <td>Flamengo</td>
+            <td>14</td>
+            <td>13</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>Bahia</td>
+            <td>14</td>
+            <td>10</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>Botafogo</td>
+            <td>13</td>
+            <td>12</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>São Paulo</td>
+            <td>13</td>
+            <td>12</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Pré-libertadores</td>
+            <td>CA Paranaense</td>
+            <td>13</td>
+            <td>8</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Bragantino</td>
+            <td>9</td>
+            <td>7</td>
+            <td>2</td>
+        </tr>
+    </table>
+
+</body>
+</html>

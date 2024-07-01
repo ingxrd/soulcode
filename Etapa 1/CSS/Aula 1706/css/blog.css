@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.secao{
+    width: 400px;
+    margin: 16px auto;
+    padding: 16px;
+    background: linear-gradient(65deg, #8950a0,#f8adf8)
+
+}
+
+/*Propriedades que posso usar*/
+/* box-shadow: x y desfoque spread color*/
+
+.figura{
+    height: 150px;
+    box-shadow: 2px 2px 2px 0px gray;
+    border-radius: 4px 5px;
+}
+
+.secao p{
+    /*text-shadow: 1px 1px 1px rgb(0, 0, 0);*/
+}

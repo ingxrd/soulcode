@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Cadastro de Usuário</title>
+
+</head>
+
+<body>
+    <h2>Cadastro</h2>
+    <!-- 
+    <form> -> Container do formulario
+    <input>, <textarea>, <select> -> campos do formulario
+    <label> -> rótulo dos campos  -->
+    <form>
+        <!-- O tributo for vincula o campo e o rótulo-->
+        <div>
+            <label for="campoNome">Nome:</label>
+            <input type="text" id="campoNome" name="nome" placeholder="Seu nome aqui" required />
+        </div>
+        <!--auto fechamento. add name="" para saber depois pra ele serve lá no backend-->
+        <div>
+            <label for="campoEmail">E-mail: </label>
+            <input type="email" id="campoEmail" name="email" placeholder="Seu seunome@seuemail.com" required />
+        </div>
+        <!-- vou validar o formato do que será escrito com placeholder-->
+
+        <div>
+            <label for="campoSenha"> Senha:</label>
+            <input type="password" id="campoSenha" minlength="8" name="senha" placeholder="Sua senha aqui" required />
+        </div>
+
+        <div>
+            <label for="campoTelefone"> Telefone:</label>
+            <input type="tel" id="campoTelefone" name="telefone" placeholder="Seu telefone pessoal" required />
+        </div>
+
+        <div>
+            <label for="campoLinkedin">Linkedin:</label>
+            <input type="url" id=campoLinkedin name="linkedin" placeholder="linkedin.com/in/seu-nome" required>
+        </div>
+
+        <div>
+            <label for="campoIdade">Idade:</label>
+            <input type="number" min="0" max="130" id="campoIdade" name="idade" required>
+        </div>
+
+        <div>
+            <label for="campoNascimento">Data de nascimento: </label>
+            <input type="date" id="campoNascimento" min="1900-01-01" name="data de nascimento" required />
+        </div>
+
+        <div>
+            <label for="campoFoto">Sua foto:</label>
+            <input type="file" id="campoFoto" name="foto" accept=".jpg,.png" />
+        </div>
+
+        <div>
+            <p>Sua linguagem favorita: </p>
+            <input type="radio" id="html" name="linguagem" required />
+            <label for="html">HTML</label>
+
+            <input type="radio" id="css" name="linguagem" />
+            <label for="css">CSS</label>
+
+            <input type="radio" id="javascript" name="linguagem" />
+            <label for="javascript">JAVASCRIPT</label>
+        </div>
+
+        <div>
+            <label>Fale um pouco sobre você: </label>
+            <textarea id="campoDescricao" name="descricao" placeholder="Fale dos seus hobbies, etc" required></textarea>
+        </div>
+
+        <div>
+            <label for="campoEscolaridade"> Escolaridade: </label>
+            <select id="campoEscolaridade" name="escolaridade" required>
+                <option disabled selected value="">Selecione uma opção</option>
+                <option>Ensino Fundamental Completo</option>
+                <option>Ensino Médio Completo</option>
+                <option>Ensino Superior Completo</option>
+            </select>
+
+        </div>
+
+        <div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+            <button type="button">Ajuda?</button><!-- button serve pra nao deixar enviar as infos-->
+        </div>
+
+
+
+    </form>
+
+</body>
+
+</html>

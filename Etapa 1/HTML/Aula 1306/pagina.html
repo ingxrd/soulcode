@@ -1,0 +1,77 @@
+<!--Semântica dá mais significado aos elementos da página
+    - Section => seção de conteúdo / capítulos / informação de contato
+    - Header => conteudo introdutório / cabeçalho inicial da pagina / autoria
+    -Nav => navegação de links
+    -Footer => rodapé
+    -Aside =>conteudo adicional 
+    -Article => conteúdo que não depende do que está de fora, como comentários
+    -Main => conteúdo principal da página, não repetir o elemento -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Exemplo de Semântica</title>
+  </head>
+
+  <body style="background-color: rgb(245, 245, 245); font-family: monospace">
+    <header>
+      <h1 style="color: rgb(28, 58, 122)">Meu site</h1>
+
+      <nav>
+        <!--Links principais-->
+        <a href="#"> Início </a>
+        <a href="#"> Contato</a>
+        <a href="#"> Sobre mim</a>
+        <a href="#"> Meus projetos</a>
+      </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2 style="color: rgb(28, 58, 122)">Apresentação</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam numquam culpa molestiae quo illo minus provident, eum qui expedita eveniet dolore perspiciatis officiis adipisci unde autem libero quis mollitia odit corrupti temporibus nemo. Soluta autem non doloremque totam ab ea.</p>
+        </section>
+
+        <section>
+            <h2 style="color: rgb(28, 58, 122)">Carreira</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis quam veniam facere porro inventore error, voluptatum nesciunt hic ut eum. Quibusdam alias rem culpa numquam odio asperiores iste eius nemo.</p>
+        </section>
+
+        <section>
+            <article>
+                <h2 style="color: rgb(28, 58, 122)">Profissionais que trabalhei</h2>
+                <h3 style="color: rgb(44, 100, 219)">Ingrid Munhoz</h3>
+                <p><strong>Desenvolvedora</strong></p>
+                <p>Uma profissional muito qualificada.</p>
+            </article>
+
+            <article>       
+            <h3 style="color: rgb(44, 100, 219)">William</h3>
+                <p><strong>Professor</strong></p>
+                <p>Um profissional muito competente.</p>
+            </article>
+        </section>
+        
+        <aside>
+            <h2 style="color: rgb(8, 50, 141)">Minhas Redes Sociais</h2>
+            <nav>
+            <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">Github</a></li>
+                <li><a href="#">Hackerrank</a></li>
+            </ul>
+            </nav>
+        </aside>
+    
+    </main>
+
+    <footer> 
+        <hr/><!--Não é regra colocar o footer fora do main, mas é melhor-->
+        <p>©2024 Meu site. Todos os direitos reservados.</p>
+    </footer>
+
+    </body>
+</html>

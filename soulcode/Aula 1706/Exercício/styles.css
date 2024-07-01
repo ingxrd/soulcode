@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#titulo-principal{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: #c25ab9;
+    margin: 34px;
+    
+}
+
+.texto-introducao{
+    font-family: Helvetica, sans-serif;
+    color: #96248c;
+
+}
+
+.imagem{
+    width: 400px;
+    height: 300px;
+    border-radius: 4px 5px;
+}
+
+.secao{
+    width: 420px;
+    margin: auto;
+    padding: 5px;
+    background: linear-gradient(65deg, #8950a0,#f8adf8);
+    height: 380px;
+
+}
+
+.secao figcaption{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.texto-menor{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
